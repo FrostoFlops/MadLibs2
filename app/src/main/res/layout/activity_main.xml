@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="55dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="413dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="89dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mad Libs"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill In The Boxes Below To Generate A Mad Lib"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="231dp"
+        android:layout_height="56dp"
+        android:text="The Food-ing"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="First Name"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Last Name"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Noun"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/editTextText13"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nouns"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <EditText
+        android:id="@+id/editTextText14"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Verb"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <EditText
+        android:id="@+id/editTextText15"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Adverb"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <EditText
+        android:id="@+id/editTextText16"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Adjective"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <EditText
+        android:id="@+id/editTextText17"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Favorite Food (Plural)"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <EditText
+        android:id="@+id/editTextText21"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Favorite Color"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="790dp" />
+
+    <EditText
+        android:id="@+id/editTextText18"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Friend's Name"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <EditText
+        android:id="@+id/editTextText19"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="How Many D"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <EditText
+        android:id="@+id/editTextText20"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="356dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="631dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="358dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="680dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="358dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="735dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="332dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="4dp"
+        android:text="Generate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText21"
+        app:layout_constraintVertical_bias="0.444" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
