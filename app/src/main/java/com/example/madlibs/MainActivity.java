@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText favoriteColor;
     private EditText friendsName;
     private EditText daysInYear;
+    private EditText friendsYear;
     private EditText amountMoney;
     private EditText wantToWin;
 
@@ -36,6 +37,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        firstName = findViewById(R.id.edit_fn);
+        lastName = findViewById(R.id.edit_ln);
+        nouns = findViewById(R.id.edit_nouns);
+        verb = findViewById(R.id.edit_verb);
+        adverb = findViewById(R.id.edit_adverb);
+        noun = findViewById(R.id.edit_noun);
+        adjective = findViewById(R.id.edit_adjective);
+        favoriteFoodSing = findViewById(R.id.edit_ffs);
+        favoriteFoodPlur = findViewById(R.id.edit_ffp);
+        favoriteColor = findViewById(R.id.edit_favcol);
+        friendsName = findViewById(R.id.edit_favcol);
+        daysInYear = findViewById(R.id.edit_diy);
+        friendsYear = findViewById(R.id.edit_friendsy);
+        amountMoney = findViewById(R.id.edit_aom);
+        wantToWin = findViewById(R.id.edit_win);
+
         btnGenerate = findViewById(R.id.btn_generate);
 
 
@@ -47,6 +64,19 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 String story = "";
+                story += "\nHi, my name is " + firstName.getText() + " " + lastName.getText() + ".";
+                story += "\nI have a friend named " + friendsName.getText();
+                story += "\n, me and " + friendsName.getText() + " have been friends for " + friendsYear.getText() + " years.";
+                story += "\n";
+                story += "\n";
+                story += "\n";
+                story += "\n";
+                story += "\n";
+                story += "\n";
+                story += "\n";
+                story += "\n";
+                story += "\n";
+                story += "\n";
                 story += "\n";
                 story += "\n";
                 story += "\n";
