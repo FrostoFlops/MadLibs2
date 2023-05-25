@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText daysInYear;
     private EditText friendsYear;
     private EditText amountMoney;
-    private EditText wantToWin;
+    private EditText trueOrFalse;
 
 
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         daysInYear = findViewById(R.id.edit_diy);
         friendsYear = findViewById(R.id.edit_friendsy);
         amountMoney = findViewById(R.id.edit_aom);
-        wantToWin = findViewById(R.id.edit_win);
+        trueOrFalse = findViewById(R.id.edit_tof);
 
         btnGenerate = findViewById(R.id.btn_generate);
 
@@ -67,19 +67,16 @@ public class MainActivity extends AppCompatActivity {
                 story += "\nHi, my name is " + firstName.getText() + " " + lastName.getText() + ".";
                 story += "\nI have a friend named " + friendsName.getText();
                 story += "\n, me and " + friendsName.getText() + " have been friends for " + friendsYear.getText() + " years.";
-                story += "\n";
-                story += "\n";
-                story += "\n";
-                story += "\n";
-                story += "\n";
-                story += "\n";
-                story += "\n";
-                story += "\n";
-                story += "\n";
-                story += "\n";
-                story += "\n";
-                story += "\n";
-                story += "\n";
+                story += "\nToday we're going to go eat " + favoriteFoodPlur.getText() + ", because it's our favorite food.";
+                story += "\n At the " + favoriteFoodSing.getText() + " shop, we met " + noun.getText() + ", he tried to order " + daysInYear.getText() + favoriteFoodPlur.getText() + " for his \"friends\".";
+                story += "\nHis \"friends\" are " + nouns.getText() + " they are a " + adjective.getText() + " group that " + verb.getText() + " people with consent.";
+                story += "\nWhen the cops show up " + nouns.getText() + ", " + adverb.getText() + " get out of there.";
+                story += "\nThe " + nouns.getText() + " theme color is " + favoriteColor.getText() + " which is also " + noun.getText() + "'s" + " favorite color.";
+                story += "\nI started yelling at " + noun.getText() + " for ordering " + daysInYear.getText() + " " + favoriteFoodPlur.getText() + ".";
+                story += "\nWe started fighting any " + noun.getText() + " got knocked out by " + friendsName.getText() + " stepping in.";
+                story += "\nI was alright and luckily it was " + trueOrFalse.getText() + " that " + noun.getText() + " was gonna get the order, but we stopped them just in time." ;
+                story += "\nI then paid $" + amountMoney.getText() + " for the " + favoriteFoodPlur.getText() + " and left with " + friendsName.getText() + " after.";
+                story += "\nThe End";
 
                 startActivity(intentDisplay);
 

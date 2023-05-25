@@ -119,7 +119,7 @@
             android:layout_width="359dp"
             android:layout_height="44dp"
             android:ems="10"
-            android:hint="Favorite Food(Plural)"
+            android:hint="Favorite Food (Plural)"
             android:inputType="text" />
 
         <EditText
@@ -163,19 +163,21 @@
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/edit_win"
+            android:id="@+id/edit_tof"
             android:layout_width="359dp"
             android:layout_height="44dp"
             android:ems="10"
-            android:hint="Do You Want To Win?"
+            android:hint="True or False?"
             android:inputType="text" />
 
         <Button
             android:id="@+id/btn_generate"
-            android:layout_width="332dp"
+            android:layout_width="198dp"
             android:layout_height="43dp"
             android:layout_marginTop="4dp"
-            android:text="Generate" />
+            android:backgroundTint="#0B66AA"
+            android:text="Generate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
