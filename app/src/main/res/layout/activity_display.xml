@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fooding_bg"
     tools:context=".DisplayActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -32,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="The Food-ing"
+        android:textColor="@color/fooding_txt_title"
         android:textSize="38sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -46,5 +48,16 @@
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:srcCompat="@drawable/suckmyligma"
         tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/tv_story"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

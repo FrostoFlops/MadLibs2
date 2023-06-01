@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="fooding_bg">#9CF3ADFF</color>
+    <color name="fooding_txt_title">#0C7335</color>
+    <color name="fooding_txt_hints">#BE2FA695</color>
+
 </resources>
